@@ -1,8 +1,12 @@
 //scripts.js
-var level = 7
+$(function(){
+	console.log('DOM loaded - you can have fun');
+});
+
 function drawTree(treeHeight) {
-    for ( var i = 1  ; i < level ; i++ ) {
-    var star = '';
+	var star;
+    for ( var i = 1  ; i < 7 ; i++ ) {
+    star = '';
    for ( var j = 1 ; j <= i ; j++ ) {
      star += '*';
    }
